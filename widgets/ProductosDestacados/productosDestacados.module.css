@@ -1,0 +1,14 @@
+.contenedor {
+    width: 100%;
+    max-width: 700px;
+    margin-bottom: 56px;
+}
+.tituloDestacado{
+    margin: 1rem;
+}
+.contenedorDestacados{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

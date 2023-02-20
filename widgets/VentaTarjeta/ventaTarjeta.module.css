@@ -1,0 +1,92 @@
+.ContenedorVenta {
+    width: 95%;
+    max-width: 500px;
+    margin: 25px 15px;
+    height: 100%;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    background-color: rgba(239, 239, 239, 0.7);
+    border: 2px solid #FFFFFF;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.ContenedorImagenVenta {
+    width: 100%;
+    margin: 0rem 0rem 1rem 0rem;
+    -webkit-user-select: none;
+    /* Chrome all / Safari all */
+    -moz-user-select: none;
+    /* Firefox all */
+    -ms-user-select: none;
+    /* IE 10+ */
+    user-select: none;
+    /* Likely future */
+}
+
+.ContenedorImagenVenta:active {
+    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+}
+
+.ImagenVenta {
+    width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.ContenedorInformacionVenta {
+    display: flex;
+    align-items: center;
+    margin: 1rem 15px;
+}
+
+.ContenedorImagenPerfil {
+    flex: 1;
+    height: 100%;
+}
+
+.ContenedorInformacion {
+    flex: 2;
+    margin: 1rem 15px;
+    height: 100%;
+}
+
+.ContenedorPrecio {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.ContenedorInteraccionVenta {
+    margin: 10px;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Interacciones {
+    display: flex;
+}
+
+.ContenedorDestacado {
+    display: flex;
+    align-items: center;
+}
+
+.contenedorprincipalarriba {
+    position: relative;
+}
+
+@media (max-width: 320px) {
+    .textoPrecio{
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        max-width: 150px;
+    }
+    .ContenedorPrecio{
+        max-width: 85px;
+    }
+  }

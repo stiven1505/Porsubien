@@ -1,0 +1,43 @@
+.contenedorBlog {
+    width: 100%;
+    margin: 1rem 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedorImagen {
+    width: 80%;
+    max-width: 500px;
+}
+
+.Boton {
+    margin: 2px 0px;
+    width: 50%;
+    font-size: 14px;
+    background: #F2D2DD;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.contendor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedorBoton {
+    margin: 1rem 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.continuar {
+    padding: 1rem 0.75rem;
+    width: 80%;
+    max-width: 350px;
+    font-size: 14px;
+    background: #9DDFD5;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+}

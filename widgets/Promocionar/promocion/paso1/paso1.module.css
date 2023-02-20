@@ -1,0 +1,52 @@
+.contenedor {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.contenedorForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 3rem;
+}
+
+.Titulo {
+    text-align: center;
+    margin: 0.75rem;
+}
+
+.Subtexto {
+    text-align: center;
+    margin: 0.5rem 2rem;
+}
+
+.contenedorImagen {
+    width: 80%;
+    max-width: 500px;
+    margin-top: 4rem;
+}
+.contenedorImagen2 {
+    width: 90%;
+    max-width: 500px;
+    margin-top: 4rem;
+}
+
+.contenedorBotones {
+    margin: 2rem 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+@media (max-height: 600px) {
+    .contenedorImagen {
+        display: none;
+    }
+}

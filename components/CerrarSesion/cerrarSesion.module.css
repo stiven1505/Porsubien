@@ -1,0 +1,108 @@
+.cerrarSesion {
+    padding: 0.75rem;
+    margin: 0.5rem;
+    width: 70%;
+    max-width: 500px;
+    font-size: 14px;
+    position: relative;
+    left: -50px;
+}
+.texto {
+    text-align: right;
+    width: 80%;
+}
+@media (min-width: 700px) {
+    .texto {
+        text-align: center;
+    }
+    .cerrarSesion{
+        padding: 1rem;
+    }
+}
+
+.contenedorDialog {
+    max-width: 500px;
+    padding: 25px;
+    height: 100%;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    background: rgba(239, 239, 239, 0.96);
+    border: 2px solid #FFFFFF;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedorTexto {
+    text-align: center;
+    margin: 10px;
+}
+
+.contenedorBotones {
+    display: flex;
+    padding: 15px 5px;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.containerBotonNo {
+    background: #9DDFD5;
+    max-width: 150px;
+    width: 100%;
+    border: 2px solid white;
+    backdrop-filter: blur(50px);
+    /* Note: backdrop-filter has minimal browser support */
+    padding: 0.75rem;
+    margin: 15px;
+    -webkit-user-select: none;
+    /* Chrome all / Safari all */
+    -moz-user-select: none;
+    /* Firefox all */
+    -ms-user-select: none;
+    /* IE 10+ */
+    user-select: none;
+    /* Likely future */
+}
+
+.containerBotonNo:active {
+    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+}
+
+.containerBotonNo {
+    color: white;
+    font-weight: 700;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.containerBotonSi {
+    background: white;
+    max-width: 150px;
+    width: 100%;
+    border: 2px solid #9DDFD5;
+    backdrop-filter: blur(50px);
+    /* Note: backdrop-filter has minimal browser support */
+    padding: 0.75rem;
+    margin: 15px;
+    -webkit-user-select: none;
+    /* Chrome all / Safari all */
+    -moz-user-select: none;
+    /* Firefox all */
+    -ms-user-select: none;
+    /* IE 10+ */
+    user-select: none;
+    /* Likely future */
+}
+
+.containerBotonSi:active {
+    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+}
+
+.containerBotonSi {
+    color: #9DDFD5;
+    font-weight: 700;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.inputTexto{
+    width: 80%;
+}

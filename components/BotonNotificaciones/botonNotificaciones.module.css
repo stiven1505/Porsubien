@@ -1,0 +1,28 @@
+.contenedorTotalNotificacion{
+    margin: 0.25rem;
+}
+.contenedorNotificaciones {
+    background-color: white;
+    cursor: pointer;
+    padding: 0.25rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    border-radius: 9999px;
+    width: 1.8rem;
+    height: auto;
+    -webkit-user-select: none;
+    /* Chrome all / Safari all */
+    -moz-user-select: none;
+    /* Firefox all */
+    -ms-user-select: none;
+    /* IE 10+ */
+    user-select: none;
+    /* Likely future */
+}
+
+.contenedorNotificaciones:hover {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.contenedorNotificaciones:active {
+    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+}

@@ -1,0 +1,7 @@
+.contenedorUbicacion{
+    display: flex;
+    align-items: center;
+}
+.textoUbicacion{
+    margin: 0px 7px;
+}

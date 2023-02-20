@@ -1,0 +1,85 @@
+.contenedor{
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contenedor2{
+    margin: 0.5rem;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contenedorProductos {
+    display: grid;
+    width: 100%;
+    margin: 25px 0px;
+    gap: 1px;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 56px;
+}
+
+.contenedoropcion {
+    width: 100%;
+    max-width: 210px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedorForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.Titulo {
+    text-align: center;
+    margin: 0.75rem;
+}
+
+.Subtexto {
+    font-size: 13px;
+    text-align: center;
+    margin: 0.5rem 2rem;
+}
+
+.contenedorImagen {
+    width: 50%;
+    max-width: 500px;
+}
+.Tipo{
+    text-align: center;
+    font-weight: 500;
+}
+.categoria {
+}
+
+.inputcategoria{
+    display: none;
+}
+.labelcategoria {
+    border: 1px solid #fff;
+    display: block;
+    position: relative;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+@media (max-height: 600px) {
+    .contenedorImagen {
+        display: none;
+    }
+}

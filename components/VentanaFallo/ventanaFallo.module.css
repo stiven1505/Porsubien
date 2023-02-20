@@ -1,0 +1,27 @@
+.contenedorVentana {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.contenedorImagen {
+    width: 70%;
+    padding: 20px;
+    position: relative
+}
+
+.contenedorImagenBorde {
+    position: absolute;
+    width: 100%;
+    max-width: 100px;
+    top: 20px;
+    left: 0;
+}
+.contenedorImagenBorde2 {
+    position: absolute;
+    width: 100px;
+    top: 20px;
+    right: 0;
+}

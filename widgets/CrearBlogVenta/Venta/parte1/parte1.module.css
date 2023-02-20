@@ -1,0 +1,70 @@
+.contenedor {
+    width: 100%;
+    margin-top: 3rem;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 7rem;
+}
+
+.contenedorcategorías {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.categoria {
+    padding: 15px;
+}
+.inputcategoria{
+    display: none;
+}
+.labelcategoria {
+    border: 1px solid #fff;
+    display: block;
+    position: relative;
+    padding: 5px;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.texto{
+    text-align: center;
+    margin: 15px;
+}
+.continuar {
+    padding: 1rem 0.75rem;
+    width: 100%;
+    max-width: 350px;
+    font-size: 14px;
+    background: #9DDFD5;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.atras {
+    padding: 1rem 0.75rem;
+    width: 100%;
+    max-width: 350px;
+    font-size: 14px;
+    border: 2px solid #9DDFD5;
+    background: white;
+    color: #9DDFD5;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contenedorBotones {
+    margin: 1rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}

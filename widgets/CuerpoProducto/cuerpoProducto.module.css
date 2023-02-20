@@ -1,0 +1,121 @@
+.contenedor {
+    width: 100%;
+    max-width: 700px;
+}
+
+.contenedorInformacion {
+    margin: 1rem;
+}
+
+.contenedorTitulo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Titulo {
+    margin: 1rem 0rem;
+}
+
+.Precio {
+    margin: 0rem;
+    font-weight: 400;
+}
+
+.disponibilidad {
+    color: #9DDFD5;
+    margin: 1rem 0rem;
+}
+
+.ImagenPerfil {
+    border-radius: 9999px;
+
+}
+
+.fotoPerfil {
+    position: relative;
+    border-radius: 9999px;
+    border: 4px solid white;
+    min-width: 40px;
+    height: auto;
+    -webkit-user-select: none;
+    /* Chrome all / Safari all */
+    -moz-user-select: none;
+    /* Firefox all */
+    -ms-user-select: none;
+    /* IE 10+ */
+    user-select: none;
+    /* Likely future */
+}
+
+.containerTextoNombre {
+    margin: 1rem 0rem;
+}
+
+.TextoNombre {
+    margin: 0px;
+    font-weight: 500;
+}
+
+.contenedorVerificacion {
+    width: 32px;
+}
+
+.contenedorTextoCuenta {
+    display: flex;
+    align-items: center;
+    flex: 3;
+}
+
+.contenedorCuentaPerfilInteraccion {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.contenedorInteraccion {
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+}
+
+.botonWpp {
+    width: 25px;
+    margin: 0px 9px;
+}
+
+.contenedorCuerpoTexto {
+    margin: 1rem 0rem;
+
+}
+
+.containerUbicacion,
+.containerCreadoFecha,
+.containerDescripcion {
+    margin: 1rem 0rem;
+}
+
+.contenedorNumeroTelefono {
+    margin: 1rem 0rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 500px) {
+    .contenedorTitulo {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .contenedorCuentaPerfilInteraccion {
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 500px) {
+    .TextoUsuario {
+        font-size: 12px;
+    }
+}

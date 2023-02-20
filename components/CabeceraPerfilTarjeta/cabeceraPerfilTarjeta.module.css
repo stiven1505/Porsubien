@@ -1,0 +1,35 @@
+.containerPortada {
+    width: 100%;
+    margin: 0rem 0rem 1rem 0rem;
+    position: relative;
+    -webkit-user-select: none;
+    /* Chrome all / Safari all */
+    -moz-user-select: none;
+    /* Firefox all */
+    -ms-user-select: none;
+    /* IE 10+ */
+    user-select: none;
+    /* Likely future */
+}
+
+.ImagenPortada {
+    width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.containerInteraccion {
+    position: absolute;
+    margin-left: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: -35px;
+    width: 100%;
+    height: auto;
+}
+.containerBoton{
+    width: 300px;
+    padding: 0rem 2rem;
+    max-width: 300px;
+}

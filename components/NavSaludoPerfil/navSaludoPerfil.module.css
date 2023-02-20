@@ -1,0 +1,31 @@
+.contenedorPerfilInfo {
+    display: flex;
+    align-items: center;
+}
+
+.contenedorFotoPerfil {
+    width: 2.5rem;
+    cursor: pointer;
+    height: auto;
+    -webkit-user-select: none;
+    /* Chrome all / Safari all */
+    -moz-user-select: none;
+    /* Firefox all */
+    -ms-user-select: none;
+    /* IE 10+ */
+    user-select: none;
+    /* Likely future */
+}
+
+.contenedorTexto {
+    padding: 0px 15px;
+}
+.ImagenPerfil{
+    border-radius: 50%;
+}
+.contenedorInformacion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+}

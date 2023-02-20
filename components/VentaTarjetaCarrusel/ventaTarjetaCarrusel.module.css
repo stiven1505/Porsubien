@@ -1,0 +1,85 @@
+.ContenedorVenta {
+    width: 300px;
+    padding: 0px;
+    margin: 0px 15px;
+    height: 100%;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    background: rgba(239, 239, 239, 1);
+    border: 2px solid #FFFFFF;
+    border-radius: 20px;
+}
+
+.ContenedorImagenVenta {
+    width: 100%;
+    margin: 0rem 0rem 1rem 0rem;
+    cursor: pointer;
+    -webkit-user-select: none;
+    /* Chrome all / Safari all */
+    -moz-user-select: none;
+    /* Firefox all */
+    -ms-user-select: none;
+    /* IE 10+ */
+    user-select: none;
+    /* Likely future */
+}
+.ImagenVenta {
+    width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.ContenedorInformacionVenta {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1rem 15px;
+}
+
+@media (max-width: 922px) {
+    .ContenedorVenta {
+        width: 150px;
+    }
+
+    .textoPrecio {
+        font-size: x-small;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        max-width: 50px;
+    }
+
+    .TarjetaBlogTitulo {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+    }
+
+}
+
+@media (max-width: 570px) {
+    .ContenedorVenta {
+        width: 100px;
+    }
+
+    .ContenedorPrecio {
+        display: none;
+    }
+
+    .ContenedorInformacionVenta {
+        margin: 10px 5px;
+
+    }
+}
+
+@media (max-width: 438px) {
+    .ContenedorVenta {
+        width: 75px;
+    }
+
+    .TarjetaBlogTitulo {
+        font-size: 10px;
+    }
+
+}

@@ -1,0 +1,27 @@
+.buscador {
+    position: relative;
+    border-radius: 30px;
+    box-sizing: border-box;
+    background-color: #F4F4F4;
+    border: 2px solid white;
+    margin-left: 0px;
+    width: 100%;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.iconoBuscador {
+    padding: 0px 8px;
+    height: 100%;
+    position: absolute;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputBuscador {
+    color: inherit;
+    padding: 1px 1px 1px 0px;
+    padding-left: 40px;
+    width: 90%;
+}

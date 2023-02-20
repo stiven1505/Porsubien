@@ -1,0 +1,35 @@
+.containerPerfilTarjeta {
+    max-width: 500px;
+    margin: 25px 15px;
+    height: 100%;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    background: rgba(239, 239, 239, 0.7);
+    border: 2px solid #FFFFFF;
+    border-radius: 20px;
+}
+.containerPerfilCabecera{
+    height: 100%;
+    padding-bottom: 40px;
+}
+.containerInformacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.containerInformacionIzquierda{
+    flex: 1;
+    padding: 0.25rem 0.75rem ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.containerInformacionderecha{
+    flex: 2;
+    margin: 0.25rem 0.75rem;
+}
+.containerDestaco{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem ;
+}

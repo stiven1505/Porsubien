@@ -1,0 +1,64 @@
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.head {
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.activo{
+    margin: 5px;
+    color: #9DDFD5;
+}
+.contenedorprincipal{
+    width: 90%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.body {
+    width: 90%;
+    max-width: 700px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo {
+    margin: 5px;
+}
+
+.contenedorhead {
+    margin: 15px;
+}
+
+.contenedorBoton {
+    width: 100%;
+    max-width: 500px;
+    padding: 1rem;
+    margin: 0.75rem;
+    font-size: 14px;
+    background: white;
+    border: 3px solid #9DDFD5;
+    color: black;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.enviar {
+    padding: 1rem 0.75rem;
+    width: 100%;
+    max-width: 350px;
+    font-size: 14px;
+    margin: 25px 0px;
+    background: #9DDFD5;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+}

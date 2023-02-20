@@ -1,0 +1,66 @@
+.contenedor {
+    width: 90%;
+    max-width: 1200px;
+    margin: 15px;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 7rem;
+}
+.textoprincipal{
+    text-align: center;
+    margin: 15px;
+}
+.contenedorseccion{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.contenedorImagen{
+    width: 100%;
+    padding: 15px;
+}
+.contenedorImagenBotones{
+    width: 40%;
+    padding: 15px;
+}
+.contenedorLogo{
+    width: 50%;
+    padding: 15px;
+}
+.contenedorTexto{
+    width: 100%;
+    padding: 15px;
+}
+.texto{
+    text-align: center;
+}
+.continuar {
+    padding: 1rem 0.75rem;
+    width: 100%;
+    max-width: 350px;
+    font-size: 14px;
+    background: #9DDFD5;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.atras {
+    padding: 1rem 0.75rem;
+    width: 100%;
+    max-width: 350px;
+    font-size: 14px;
+    border: 2px solid #9DDFD5;
+    background: white;
+    color: #9DDFD5;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contenedorBotones {
+    margin: 1rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}

@@ -1,0 +1,51 @@
+.contenedorReseña {
+    width: 100%;
+    max-width: 500px;
+    margin: 12px 15px;
+    height: 100%;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    background: rgba(239, 239, 239, 0.7);
+    border: 2px solid #FFFFFF;
+    border-radius: 20px;
+}
+
+.contenedorParteSuperior {
+    display: flex;
+    margin: 1rem 0rem;
+    padding: 0.5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenedorImagenPerfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1;
+}
+
+.contenedorNombreCalificacion {
+    flex: 3 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.contenedorBotones {
+    flex: 1 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.contenedorCuerpoTexto {
+    margin: 1rem 0.25rem;
+    padding: 0rem 0.5rem;
+
+}
+.contenedorInteracion {
+    display: flex;
+    padding: 0.5rem;
+}

@@ -1,0 +1,48 @@
+.contenedor {
+    display: flex;
+    align-items: center;
+    background: white;
+    max-width: 100%;
+    padding: 0.25rem 0.5rem;
+    border-radius: 9999px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    -webkit-user-select: none;
+    /* Chrome all / Safari all */
+    -moz-user-select: none;
+    /* Firefox all */
+    -ms-user-select: none;
+    /* IE 10+ */
+    user-select: none;
+    /* Likely future */
+}
+
+.contenedor:active {
+    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+}
+
+.texto {
+    padding: 0px 10px;
+}
+
+.contenedorDialog {
+    max-width: 500px;
+    padding: 25px;
+    height: 100%;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    background: rgba(239, 239, 239, 0.96);
+    border: 2px solid #FFFFFF;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedorTexto {
+    padding: 5px 0px;
+    width: 100%;
+}
+.contenedorgrupoTexto{
+    display: flex;
+    width: 100%;
+}

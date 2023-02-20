@@ -1,0 +1,59 @@
+.navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    max-width: 1200px;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(25px);
+}
+
+.contenedorBuscador {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+
+.cotenedorLogo {
+    width: 3.5rem;
+    cursor: pointer;
+    height: auto;
+    -webkit-user-select: none;
+    /* Chrome all / Safari all */
+    -moz-user-select: none;
+    /* Firefox all */
+    -ms-user-select: none;
+    /* IE 10+ */
+    user-select: none;
+    /* Likely future */
+}
+
+.contenedorBarraBuscar {
+    width: 100%;
+}
+
+
+@media (min-width: 768px) {
+    .navbar {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .contenedorInformacion {
+        justify-content: flex-end;
+    }
+
+    .contenedorBuscador {
+        flex: 1;
+    }
+
+    .contenedorBarraBuscar {
+        padding: 0rem 1rem;
+    }
+
+    .cotenedorLogo {
+        width: 4rem;
+    }
+}

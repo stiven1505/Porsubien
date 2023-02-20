@@ -1,0 +1,28 @@
+.contenedor {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.contenedorImagen {
+    width: 80%;
+    max-width: 500px;
+    margin-top: 4rem;
+}
+
+.texto {
+    text-align: center;
+}
+
+.boton {
+    cursor: pointer;
+    background-color: #9DDFD5;
+    width: 80%;
+    margin: 15px;
+    height: 50px;
+    max-width: 300px;
+
+}

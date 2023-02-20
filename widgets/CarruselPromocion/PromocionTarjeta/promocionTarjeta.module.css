@@ -1,0 +1,82 @@
+.contenedorPerfilCarrusel {
+    max-width: 1200px;
+    height: auto;
+    margin: 25px 5px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    background: rgba(239, 239, 239, 0.7);
+    border: 2px solid #FFFFFF;
+    border-radius: 20px;
+}
+
+.ContenedorImagenPortada {
+    width: 100%;
+    margin: 0rem 0rem 1rem 0rem;
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    /* Chrome all / Safari all */
+    -moz-user-select: none;
+    /* Firefox all */
+    -ms-user-select: none;
+    /* IE 10+ */
+    user-select: none;
+    /* Likely future */
+}
+
+.ImagenPortada {
+    width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.containerInteraccion {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    bottom: -140px;
+    width: 100%;
+    height: auto;
+}
+
+.containerPerfilCabecera {
+    height: 100%;
+    padding-bottom: 160px;
+}
+
+.contenedorVentas {
+    display: flex;
+}
+
+@media (max-width: 922px) {
+    .containerInteraccion {
+        bottom: -100px;
+    }
+
+    .containerPerfilCabecera {
+        padding-bottom: 100px;
+    }
+}
+@media (max-width: 570px) {
+    .containerInteraccion {
+        bottom: -70px;
+    }
+
+    .containerPerfilCabecera {
+        padding-bottom: 70px;
+    }
+}
+
+@media (max-width: 360px) {
+    .containerInteraccion {
+        bottom: -70px;
+    }
+
+    .containerPerfilCabecera {
+        padding-bottom: 70px;
+    }
+    .contenedorVenta2{
+        display: none;
+    }
+
+}

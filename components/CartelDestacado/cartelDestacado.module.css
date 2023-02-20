@@ -1,0 +1,16 @@
+.contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: white;
+    padding: 0.25rem 0.75rem;
+    max-width: 3rem;
+    margin: 0.25rem;
+    border: 2px solid #97dfdb;
+    border-radius: 9999px;    
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */  
+}

@@ -1,0 +1,67 @@
+.containerDescripcionPerfil {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    max-width: 700px;
+    margin-top: 50px;
+}
+
+.contenedorInformacionDescripcion {
+    margin: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.containerNombreUsuario {
+    display: flex;
+    align-items: center;
+}
+
+.contenedorVerificacion {
+    width: 32px;
+}
+
+.containerTextoNombre {
+    margin: 3.5px 0px;
+}
+
+.TextoNombre {
+    margin: 0px;
+    font-weight: 500;
+}
+
+.containerCalificacion {
+    margin: 3.5px 0px;
+}
+
+.containerUbicacion {
+    margin: 3.5px 0px;
+}
+
+.containerCreadoFecha {
+    margin: 3.5px 0px;
+}
+
+.containerSeguidosSiguiendo {
+    display: flex;
+    align-items: center;
+    margin: 3.5px 0px;
+
+}
+
+.containerSeguimiento {
+    display: flex;
+    align-items: center;
+}
+
+.numeroSeguimiento {
+    margin: 0px 7px;
+    font-size: 14px;
+}
+
+.containerBotonWpp {
+    margin: 3.5px 0px;
+}

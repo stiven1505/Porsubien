@@ -1,0 +1,50 @@
+.contenedor {
+    width: 100%;
+    max-width: 700px;
+}
+
+.item {
+    width: 33%;
+    text-align: center;
+    background-color: #fdfdfd;
+}
+
+.contenedorProductos {
+    display: grid;
+    width: 100%;
+    margin: 25px 0px;
+    gap: 1px;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 56px;
+}
+
+.contenedorReseñas {
+    margin: 25px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 56px;
+}
+
+.contenedorCuerpoReseñas {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contenedorBlog {
+    margin-bottom: 56px;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.contenedorBotonReseña{
+    width: 80%;
+}

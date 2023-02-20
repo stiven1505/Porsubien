@@ -1,0 +1,18 @@
+.contenedor {
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 7rem;
+}
+
+.contenedorImagen {
+    width: 80%;
+}
+.textoprincipal{
+    text-align: center;
+    margin: 15px;
+}

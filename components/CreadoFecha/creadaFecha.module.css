@@ -1,0 +1,8 @@
+.contenedorFecha{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.textoFecha{
+    margin: 0px 7px;
+}

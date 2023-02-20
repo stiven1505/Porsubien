@@ -1,0 +1,8 @@
+.contenedorIcono{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.textoNumero{
+    margin: 0px 7px;
+}

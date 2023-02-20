@@ -1,0 +1,135 @@
+.contenedorBotonReseña {
+    display: flex;
+    max-width: 230px;
+    width: 100%;
+    align-items: center;
+    margin: 5px 15px;
+    margin-top: 25px;
+    background-color: #97DFDB;
+    border-radius: 9999px;
+    border: 2px solid white;
+    padding: 5px 15px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    -webkit-user-select: none;
+    /* Chrome all / Safari all */
+    -moz-user-select: none;
+    /* Firefox all */
+    -ms-user-select: none;
+    /* IE 10+ */
+    user-select: none;
+    /* Likely future */
+}
+
+.contenedorBotonReseña:active {
+    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+}
+.contenedorImagen {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+.textoBotonReseña{
+    margin: 0px 7px;
+    color: white;
+    font-weight: 500;
+    flex: 6;
+    text-align: center;
+}
+
+.contenedorDialog {
+    max-width: 500px;
+    padding: 25px;
+    height: 100%;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    background: rgba(239, 239, 239, 0.96);
+    border: 2px solid #FFFFFF;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedorTexto {
+    text-align: center;
+    margin: 10px;
+}
+
+.contenedorBotones {
+    display: flex;
+    padding: 15px 5px;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.containerBotonCalificar {
+    background: #9DDFD5;
+    max-width: 100px;
+    width: 100%;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(50px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 40px;
+    display: flex;
+    padding: 0.75rem;
+    margin: 0.75em;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    -webkit-user-select: none;
+    /* Chrome all / Safari all */
+    -moz-user-select: none;
+    /* Firefox all */
+    -ms-user-select: none;
+    /* IE 10+ */
+    user-select: none;
+    /* Likely future */
+    color: white;
+    font-weight: 700;
+}
+
+.containerBotonCalificar:active {
+    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+}
+
+.containerBotonCancelar {
+    background: white;
+    max-width: 100px;
+    width: 100%;
+    border: 2px solid #9DDFD5;
+    box-sizing: border-box;
+    backdrop-filter: blur(50px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 40px;
+    display: flex;
+    padding: 0.75rem;
+    margin: 0.75em;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    -webkit-user-select: none;
+    /* Chrome all / Safari all */
+    -moz-user-select: none;
+    /* Firefox all */
+    -ms-user-select: none;
+    /* IE 10+ */
+    user-select: none;
+    /* Likely future */
+    color: #9DDFD5;
+    font-weight: 700;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.containerBotonCancelar:active {
+    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+}
+
+.inputTexto{
+    width: 100%;
+    margin: 20px;
+}

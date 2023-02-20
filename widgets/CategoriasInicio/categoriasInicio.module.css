@@ -1,0 +1,28 @@
+.contenedorSeccionCategorias2 {
+    margin: 20px 0px;
+}
+
+.textoTituloCategorias {
+    margin: 1.5rem;
+}
+
+.slider {
+    max-width: 95vw;
+    height: auto;
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+
+}
+
+.slide {
+    width: 85px;
+    flex-shrink: 0;
+    height: 100%;
+}
+
+.slides>div {
+    /* CURRENT way. */
+    scroll-snap-align: start;
+}
